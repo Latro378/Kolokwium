@@ -8,5 +8,10 @@ namespace Biuro_Podróży
 {
     interface IZarzadzaj
     {
+        void DodajAutobus(int iloscMiejsc);
+        void DodajPociag(int iloscMiejsc, int dlugoscTrasy);
+        void UsunOstatni();
+        void Wyczysc();
+
     }
 }

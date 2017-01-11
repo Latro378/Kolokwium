@@ -8,5 +8,7 @@ namespace Biuro_Podróży
 {
     interface IData
     {
+        void UsatwDate(DateTime data);
+        bool SprawdzDate();
     }
 }
